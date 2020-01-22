@@ -36,3 +36,7 @@ Exercise 11. Working on the program from the exercises 9 and 10 modify the code 
 Exercise 12. Modify the program from the last three exercises in order to prevent situations where:
              - values of x or y coordinates aren't in the interval <1;3>
              - the inputted cell already has a 'X' or 'O' sign on it
+
+Exercise 13. Write a program that asks the user to input an integer number. Then the program calculates the sum of all even numbers up to the number that the user inputted. Use continue instruction to leave all odd numbers.
+
+Exercise 14. Write a program that shows the user current sum of numbers (starting with 0). Then it asks if the user wants to add next number (raising by 1 in an infinite loop). If the user inputs Y or y it adds the said number. If the user inputs N or n the number is skipped and gets incremented by 1 (continue). If the user inputs anything else then Y/y or N/n the loop closes (break).
