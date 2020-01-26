@@ -15,9 +15,32 @@ int main()
    {
        cout << "Input x: ";
        cin >> x;
+       if(x <= 0 && x > 3)
+       {
+           cout << "Wrong! Enter again. Input x: ";
+           cin >> x;
+           continue;
+       }
+       else
+       {
+           continue;
+       }
+       
        cout << "Input y: ";
        cin >> y;
+       if(y <= 0 && y > 3)
+       {
+           cout << "Wrong! Enter again. Input y: ";
+           cin >> y;
+           continue;
+       }
+       else
+       {
+           continue;
+       }
        
+       
+       /*
        if(x <= 0 && x > 3)
        {
            cout << "Wrong! Enter again. Input x: ";
@@ -29,6 +52,7 @@ int main()
            cout << "Wrong! Enter again. Input y: ";
            cin >> y;
        }
+       */
    
        system("clear");
    
@@ -40,9 +64,33 @@ int main()
        
        cout << "Input x: ";
        cin >> x;
+       if(x <= 0 && x > 3)
+       {
+           cout << "Wrong! Enter again. Input x: ";
+           cin >> x;
+           continue;
+       }
+       else
+       {
+           continue;
+       }
+       
+       
        cout << "Input y: ";
        cin >> y;
+       if(y <= 0 && y > 3)
+       {
+           cout << "Wrong! Enter again. Input y: ";
+           cin >> y;
+           continue;
+       }
+       else
+       {
+           continue;
+       }
        
+       
+       /*
        if(x <= 0 && x > 3)
        {
            cout << "Wrong! Enter again. Input x: ";
@@ -54,7 +102,7 @@ int main()
            cout << "Wrong! Enter again. Input y: ";
            cin >> y;
        }
-       
+       */
        system("clear");
        
        a[x-1][y-1] =  'O';
