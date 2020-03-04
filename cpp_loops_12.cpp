@@ -30,6 +30,12 @@ int main()
            cout << "Incorrect y! Out of range! Bye!" << endl;
            break;
        }
+       
+       if(a[x-1][y-1] == 'X' || a[x-1][y-1] == 'O')
+       {
+           cout << "Incorrect! Bye!" << endl;
+           break;
+       }
 
        system("clear");
 
@@ -61,6 +67,12 @@ int main()
        if(y < 1 || y > 3)
        {
            cout << "Incorrect y! Out of range! Bye!" << endl;
+           break;
+       }
+
+       if(a[x-1][y-1] == 'X' || a[x-1][y-1] == 'O')
+       {
+           cout << "Incorrect! Bye!" << endl;
            break;
        }
        
