@@ -2,57 +2,24 @@
 #include <iostream>
 using namespace std;
 
+int x, y, p = 0;
+
 int main()
 {
-    int number, number_1, sum = 0;
+    cout << "Enter the number: ";
+    cin >> x;
     
-    cout << "Enter an integer number: ";
-    cin >> number;
-    
-    int a[number] = {};
-    
-    if (number%2 == 0)
+    for(int i = 1; i < x+1; i++)
     {
-        number_1 = number/2;
-        int a_1[number_1] = {};
-        
-        a_1[0] = 0;
-        
-        
-        for(int i = 0; i < number+1; i++)
+        if(i % 2 != 0)
         {
-            a[i-1] = i;
-            
-            if(a[i-1] % 2 == 0)
-            {
-                a_1[i-1] = a_1[i-1] + a[i-1];
-                cout << a[i-1];
-            }
-            else
-            {
-                continue;
-            }
-            cout << a[i-1] + a[i+1] + a[i+3] << endl;
-            
+            continue;
+        }
+        else
+        {
+            p = p + i;
         }
     }
-    else
-    {
-        number_1 = number/2 + 1;
-        int a_1[number_1] = {};
-        for(int i = 1; i < number+1 ; i++)
-        {
-            a[i-1] = i;
-            cout << a[i-1];
-            if(a[i-1] % 2 == 0)
-            {
-                a_1[i-1] = a[i-1];
-            }
-            else
-            {
-                continue;
-            }
-        }
-    }
-    return 0;
+    
+    cout << "The final output is: " << p << endl;
 }
