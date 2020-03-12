@@ -1,4 +1,4 @@
-# cpp_loops
+# cpp_loops (completed)
 Exercises for loops in C++
 
 Exercise 1. Write a program that asks the user to input an integer number. Then starting from that number the program prints out in the console next 100 numbers.
